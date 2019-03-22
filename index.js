@@ -25,7 +25,7 @@ class BackgroundTimer {
         }
         callback();
       }
-    });
+    }, this);
   }
 
   // Original API
